@@ -1,0 +1,15 @@
+.float-left {
+  float: left;
+  margin: 10px 15px 10px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 10px 0 10px 15px;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
