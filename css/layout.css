@@ -4,11 +4,6 @@
   margin: 10px 15px 10px 0;
 }
 
-.float-right {
-  float: right;
-  margin: 10px 0 10px 15px;
-}
-
 
 .clearfix::after {
   content: "";
