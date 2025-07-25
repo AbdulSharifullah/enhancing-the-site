@@ -1,7 +1,8 @@
 
 .float-left {
   float: left;
-  margin: 10px 15px 10px 0;
+  width: 200px;
+  margin: 10px 20px 10px 0;
 }
 
 
@@ -9,6 +10,16 @@
   content: "";
   display: block;
   clear: both;
+}
+
+
+section.clearfix {
+  overflow: hidden;
+}
+
+
+section.clearfix p {
+  margin-top: 0;
 }
 
 
@@ -20,6 +31,7 @@ nav {
   z-index: 1000;
 }
 
+
 nav ul {
   list-style: none;
   margin: 0;
@@ -27,6 +39,7 @@ nav ul {
   display: flex;
   gap: 20px;
 }
+
 
 nav a {
   color: white;
@@ -55,4 +68,28 @@ aside {
   padding: 10px;
   margin: 10px;
   border: 1px solid #ccc;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: left;
+}
+
+caption {
+  caption-side: top;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+body {
+  background-color: lightgray;
 }
