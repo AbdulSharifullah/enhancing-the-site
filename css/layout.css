@@ -93,3 +93,7 @@ caption {
 body {
   background-color: lightgray;
 }
+
+section {
+  scroll-margin-top: 100px;
+}
